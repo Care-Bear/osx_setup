@@ -46,6 +46,9 @@ defaults write com.apple.dock autohide -bool true
 # Enable the automatic update check
 defaults write com.apple.SoftwareUpdate AutomaticCheckEnabled -bool true
 
+###############
+# Brew Stuff
+###############
 
 # Install Homebrew
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
