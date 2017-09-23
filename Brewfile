@@ -45,6 +45,7 @@ cask "amethyst"
 cask 'appcleaner' unless system 'test -e /Applications/AppCleaner.app'
 cask "clipmenu"
 cask "dbeaver-enterprise"
+cask "dropbox" unless system 'test -e /Applications/Dropbox.app'
 cask "etcher"
 cask 'iterm2'  unless system 'test -e /Applications/iTerm.app'
 cask "mysqlworkbench" unless system 'test -e /Applications/MySQLWorkbench.app'
