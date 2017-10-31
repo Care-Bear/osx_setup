@@ -43,7 +43,6 @@ brew "terraform"
 brew "zsh"
 cask "amethyst"
 cask 'appcleaner' unless system 'test -e /Applications/AppCleaner.app'
-cask "clipmenu"
 cask "dbeaver-enterprise"
 cask "dropbox" unless system 'test -e /Applications/Dropbox.app'
 cask "etcher"
@@ -57,7 +56,6 @@ mas "iMovie", id: 408981434
 mas "Keynote", id: 409183694
 mas "Microsoft Remote Desktop", id: 715768417
 mas "Numbers", id: 409203825
-mas "OneDrive", id: 823766827
 mas "Pages", id: 409201541
 mas "Slack", id: 803453959
 mas "Telephone", id: 406825478
