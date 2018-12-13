@@ -55,3 +55,10 @@ defaults write com.apple.SoftwareUpdate AutomaticCheckEnabled -bool true
 
 # Install software from Brewfile
 brew bundle
+
+##############
+Miscellaneous
+##############
+
+# Create cucstom vim backup location
+mkdir -p $HOME/.vim/{backup,swap,undo}
