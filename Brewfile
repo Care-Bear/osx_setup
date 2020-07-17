@@ -1,4 +1,4 @@
-tap "caskroom/cask"
+tap "cask/cask"
 tap "homebrew/bundle"
 tap "homebrew/core"
 brew "aws-shell"
